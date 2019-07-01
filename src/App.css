@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.carItem
+{
+  background-color: lightgrey;
+  width:298px;
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.carItem__header .title
+{
+  color: #002337;
+  display: inline-block;
+  font-size: 1.5rem;
+  line-height: 1em;
+  max-height: 1em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.carItem__header .subTitle
+{
+  color: #4a4a4a;
+  font-size: 1rem;
+  line-height: 1em;
+  max-height: 1em;
+  margin: .25em 0;
+  overflow: hidden;
+}
+
+.carItem__header, .detail, .spec, .dealerInfo
+{
+  padding:0px 20px;
+}
+
+.spec ul
+{
+  list-style: none;
+  padding: 0px;
+  margin: 20px 0px;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.spec ul li
+{
+  display: flex;
+  flex: 1 1 20%;
+  width:20%;
+}
+
+.detail .detail__price
+{
+  font-weight: bold;
+}
+
+.dealerInfo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
